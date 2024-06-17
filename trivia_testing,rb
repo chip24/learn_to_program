@@ -1,0 +1,14 @@
+h = {
+  "response_code"=>0, 
+  "results"=> [
+    {
+      "type"=>"multiple", "difficulty"=>"easy", "category"=>"Politics", 
+      "question"=>"How many people are in the U.S. House of Representatives?", "correct_answer"=>"435", "incorrect_answers"=>["260", "415", "50"]
+      },
+       {
+        "type"=>"multiple", "difficulty"=>"easy", "category"=>"Entertainment: Television", "question"=>"In &quot;Breaking Bad&quot;, Walter White is a high school teacher diagnosed with which form of cancer?", "correct_answer"=>"Lung Cancer", "incorrect_answers"=>["Prostate Cancer", "Brain Cancer", "Testicular Cancer"]
+        }
+      ]
+    }
+
+    puts h["results"][1]["question"]
